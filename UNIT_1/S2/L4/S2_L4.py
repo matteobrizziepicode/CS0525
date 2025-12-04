@@ -23,14 +23,14 @@ while True:
         print("\nHai scelto: Perimetro del quadrato")
         lato = float(input("Inserisci il lato del quadrato: "))
         risultato = perimetro_quadrato(lato)
-        print(f"➡️ Risultato: il perimetro del quadrato è {risultato}")
+        print(f"Risultato: il perimetro del quadrato è {risultato}")
 
     # 2) CERCHIO
     elif scelta == "2":
         print("\nHai scelto: Area del cerchio")
         r = float(input("Inserisci il raggio del cerchio: "))
         risultato = area_cerchio(r)
-        print(f"➡️ Risultato: l'area del cerchio è {risultato}")
+        print(f"Risultato: l'area del cerchio è {risultato}")
 
     # 3) RETTANGOLO
     elif scelta == "3":
@@ -38,7 +38,7 @@ while True:
         b = float(input("Inserisci la base del rettangolo: "))
         h = float(input("Inserisci l'altezza del rettangolo: "))
         risultato = perimetro_rettangolo(b, h)
-        print(f"➡️ Risultato: il perimetro del rettangolo è {risultato}")
+        print(f"Risultato: il perimetro del rettangolo è {risultato}")
 
     # 4) USCITA
     elif scelta == "4":
